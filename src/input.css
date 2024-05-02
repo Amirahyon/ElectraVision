@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+
+html, body{
+    padding:0;
+    margin:0;
+    background-color: #386C0B;
+}
+
+*{
+    box-sizing: border-box
+}
+
+.menu{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    transform: translateY(-200%);
+    transition: transform 0.3s;
+}
+
+.show-menu{
+    transform: translateY(0)
+}
+@tailwind utilities;
