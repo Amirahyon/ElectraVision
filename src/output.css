@@ -589,10 +589,14 @@ html, body{
   }
 
   .it{
-    font-size: 18px
+    font-size: 18px;
   }
 
   .test{
-    font-size: 20px
+    font-size: 20px;
+  }
+
+  .large{
+    width: 60%;
   }
 }
