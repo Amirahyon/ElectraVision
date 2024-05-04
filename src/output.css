@@ -577,3 +577,22 @@ html, body{
 .show-menu{
   transform: translateY(0)
 }
+
+@media screen and (min-width: 1280px) {
+  .pic{
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .ib{
+    font-size: 20px;
+  }
+
+  .it{
+    font-size: 18px
+  }
+
+  .test{
+    font-size: 20px
+  }
+}
