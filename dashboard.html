@@ -58,16 +58,23 @@
 
         <p class="ml-[1.6rem] mt-[0.4rem] font-bold text-sm">Presidential Election Poll</p>
 
-        <div class="w-[92%] bg-[#38A700] h-[6rem] md:h-[7rem] mx-auto mt-[2.5rem] p-[0.5rem]">
+        <div class="w-[92%] bg-[#38A700] h-[6.9rem] md:h-[7rem] mx-auto mt-[2.5rem] p-[0.5rem]">
 
             <div class="flex gap-[0.5rem] items-center font-bold md:gap-[2rem]">
                 <p class="text-white text-[0.94rem] md:text-xl">Total Votes Received</p>
                 <p class="text-black md:text-xl">10, 237,015</p>
             </div>
 
-            <div class="flex mt-[1.31rem] md:mt-[1.5rem] gap-[10rem]">
+            <div class="md:flex md:justify-between mt-[0.3rem] md:mt-[1.5rem]">
 
-                <input type="text" class="bg-white h-[2rem] md:h-[2.5rem] w-[90%] rounded-[0.65rem] text-[0.9rem] font-semibold p-[1rem]" placeholder="Search by party">
+                <input type="text" class="bg-white h-[2rem] md:h-[2.5rem] md:w-[70%] w-[100%] rounded-[0.65rem] text-[0.9rem] font-semibold p-[1rem]" placeholder="Search by party">
+                
+                <button class="bg-white w-[20%] h-[2.5rem] rounded-[0.7rem] max-md:hidden font-semibold">Search</button>
+
+                <div class="flex justify-between md:hidden">
+                    <div></div>
+                    <button class="bg-white w-[40%] h-[1.8rem] mt-[0.5rem] text-sm rounded-[0.5rem] font-semibold">Search</button>
+                </div>
 
             </div>
 
@@ -123,9 +130,15 @@
 
         <div class="w-[90%] mx-auto">
 
-            <input type="text" name="" class="w-[100%] h-[2rem] text-[0.7rem] px-[0.5rem] border-[#38A700] border mt-[1.7rem] rounded-[0.55rem]" placeholder="Search Results by States / Polling Unit">
+            <div class="flex justify-between items-center w-[100%] px-[0.5rem] h-[2rem] text-[0.7rem] border rounded-[0.55rem] mt-[1.7rem]">
+                <input type="text" name="" class="w-[75%] h-[100%] px-[0.5rem] border-[#38A700]" placeholder="Search Results by States / Polling Unit">
+                <button class="w-[20%] h-[80%] bg-[#38a700] max-md:text-[0.6rem] rounded-[0.5rem] text-white font-medium">Search</button>
+            </div>
 
-            <input type="text" name="" class="w-[100%] h-[2rem] text-[0.7rem] px-[0.5rem] bg-[#38A700] mt-[1rem] rounded-[0.55rem] italic" placeholder="Search by party">
+            <div class="flex justify-between items-center w-[100%] h-[2rem] bg-[#38A700] text-[0.7rem] px-[0.5rem] rounded-[0.55rem] mt-[1rem]">
+                <input type="text" name="" class="w-[75%] h-[100%] px-[0.5rem] bg-[#38A700] italic" placeholder="Search by party">
+                <button class="w-[20%] h-[80%] max-md:text-[0.6rem] bg-white text-[#38a700] rounded-[0.5rem] font-medium">Search</button>
+            </div>
         </div>
 
         <div class="flex justify-between w-[90%] mx-auto">
@@ -169,7 +182,11 @@
 
                 <div class="flex justify-between w-[100%] h-[2rem]">
 
-                    <input type="text" class="w-[50%] h-[100%] bg-[#31D843] italic text-white pl-[1rem]" placeholder="Search by location">
+                    <div class="flex justify-between items-center w-[50%] h-[100%] px-[0.5rem] bg-[#31D843]">
+                        <input type="text" class="w-[75%] h-[100%] bg-[#31D843] italic text-white pl-[1rem]" placeholder="Search by location">
+                    
+                        <button class="w-[20%] h-[80%] bg-white rounded-[0.6rem] text-sm text-[#31D843] font-medium">Search</button>
+                    </div>
 
                     <div class="flex">
                         <p class="pt-[0.5rem] w-[12.19rem] h-[100%] text-[#FFFFFF] text-[0.9rem]">Last Updated <span class="spa"></span></p>
@@ -252,7 +269,13 @@
 
                     <div class="w-[90%] h-[3rem] mx-auto mb-[2rem]">
 
-                        <input type="text" name="" class="w-[100%] h-[2.5rem] px-[1rem] border-[#38A700] border mt-[4rem] rounded-[0.75rem]" placeholder="Search Results by States / Polling Unit">
+                        <div class="flex justify-between items-center w-[100%] px-[0.5rem] h-[2.5rem] border-[#38A700] text-sm border rounded-[0.75rem] mt-[4rem]">
+
+                            <input type="text" name="" class="w-[75%] h-[100%] px-[1rem]" placeholder="Search Results by States / Polling Unit">
+
+                            <button class="w-[20%] h-[80%] bg-[#38a700] rounded-[0.6rem] text-white font-medium">Search</button>
+
+                        </div>
                     </div>
 
                 </div>
