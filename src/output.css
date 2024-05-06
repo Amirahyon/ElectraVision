@@ -558,10 +558,28 @@ html, body{
   padding:0;
   margin:0;
   background-color: #386C0B;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 *{
   box-sizing: border-box
+}
+
+:root{
+  font-size: 16px;
+}
+
+.voting{
+  background-image: url(images/vote.jpeg);
+  /* opacity: 0.5; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  /* width: 100%;
+    height: 100%; */
 }
 
 .menu{
@@ -576,6 +594,12 @@ html, body{
 
 .show-menu{
   transform: translateY(0)
+}
+
+@media only screen and (max-width:768px){
+  :root{
+    font-size: 12px
+  }
 }
 
 @media screen and (min-width: 1280px) {

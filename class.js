@@ -19,8 +19,7 @@ function toggleMenu() {
 icon.addEventListener("click", toggleMenu);
 menu.addEventListener("click", toggleMenu);
 
-const span = document.querySelector("spa")
-console.log(span.innerHTML);
+
 
 function showDateTime(){
     const now = new Date()
@@ -36,5 +35,13 @@ function showDateTime(){
     return fullDate
 }
 console.log(showDateTime());
-const time = span.innerHTML;
-span.innerHTML = console.log(showDateTime());
+
+console.log(span);
+// switch (fullDate){
+//     case 'hour >= 12' :
+//         span.textContent = fullDate + 'pm';
+//         break;
+//     case 'hour < 12':
+//         span.textContent = fullDate + 'am';
+//         break;
+// };

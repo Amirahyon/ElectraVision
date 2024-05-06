@@ -189,7 +189,23 @@
                     </div>
 
                     <div class="flex">
-                        <p class="pt-[0.5rem] w-[12.19rem] h-[100%] text-[#FFFFFF] text-[0.9rem]">Last Updated <span class="spa"></span></p>
+
+                        <p class="w-[10.19rem] h-[100%] pt-[0.5rem] text-white text-[0.9rem]">Last Updated<span class="ml-[0.5rem]" id="time"></span></p>
+                        
+                        <script>
+                            const span = document.getElementById("time");
+                            const now = new Date()
+                            let day = now.getDate() + 1;
+                            let month = now.getMonth() + 1;
+                            let year = now.getFullYear();
+                            let hour = now.getHours();
+                            let min = now.getMinutes();
+                            let slash = '/';
+                            let column = ':'
+                            let space = ' '
+                            let fullDate = hour + column + min;
+                            span.textContent = fullDate;
+                        </script>
     
                         <button class="ml-[0.56rem] bg-[#31D843] text-white w-[43%] h-[100%] rounded-[0.5rem] text-center">Refresh</button>
                     </div>
