@@ -26,6 +26,13 @@ html, body{
     background-blend-mode: screen;
 }
 
+#box{
+    background-image: url(images/ballot-box.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+
 .menu{
     position: fixed;
     right: 0;
@@ -72,4 +79,5 @@ html, body{
         height: 0.8rem;
     }
 }
+
 @tailwind utilities;
