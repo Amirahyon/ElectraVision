@@ -4,68 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verify</title>
-    <link href="./output.css" rel="stylesheet">
+    <link href="src/output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script> 
 </head>
 <body>
-    <section class="bg-[#293F14] h-[1250px]">
-    <section>
-        <div class="flex pl-[99px] pt-[36px]">
-            <img src="images/logo.svg" class="w-[50px] h-[50px]">
-            <p class="text-[#ffffff] p-[11px] "><em>ELECTRAVISION</em></p>
-        </div>
-    </section>
-    <!-- section 2 -->
-    <section class=" items-center justify-center">
-        <div class="flex mt-[40px] items-center justify-center">
-            <div class="h-6 w-6 mr-0 flex-shrink-0 flex items-center justify-center bg-[#31D843] rounded-full">
-                <span class="text-[#ffffff] text-sm font-bold">01</span>
+    <section class="">
+        <section class="flex justify-between items-center w-[90%] mx-auto mt-[50px] max-md:mt-[20px]">
+
+            <div class="flex items-center">
+                <img src="src/images/image.svg" class="w-[4rem] h-[4rem] max-md:w-[2.5rem] max-md:h-[2.5rem]">
+                <p class="text-[#ffffff] p-[11px] max-md:p-[7px] font-semibold max-md:text-xl text-3xl">ELECTRAVISION</p>
             </div>
-            <img src="images/line.svg" class="w-[210px] p-0">
-            <div class="h-6 w-6 mr-0 flex-shrink-0 flex items-center justify-center bg-[#31D843] rounded-full">
-                <span class="text-[#ffffff] text-sm font-bold">02</span>
+
+            <a href="dashboard.html">
+                <button class="bg-[#31D843] w-[150px] h-[3rem] max-md:w-[70px] max-md:h-[2rem] max-md:rounded-[0.5rem] max-md:text-base rounded-[10px] text-[#293F14] font-bold text-xl">Back</button>
+            </a>
+        </section>
+
+        <!-- section 2 -->
+        <section class=" items-center justify-center">
+            <div class="flex max-md:mt-[30px] mt-[80px] items-center justify-center">
+                <div class="h-[2rem] w-[2rem] flex items-center justify-center bg-[#31D843] rounded-full">
+                    <span class="text-[#ffffff] text-sm font-bold">01</span>
+                </div>
+                <img src="src/images/line1.svg" class="w-[18rem] max-md:w-[6rem] p-0">
+                <div class="h-[2rem] w-[2rem] flex items-center justify-center bg-[#31D843] rounded-full">
+                    <span class="text-[#ffffff] text-sm font-bold">02</span>
+                </div>
+                <img src="src/images/line1.svg" class="w-[18rem] max-md:w-[6rem] p-0">
+                <div class="h-[2rem] w-[2rem] flex items-center justify-center bg-[#31D843] rounded-full">
+                    <span class="text-[#ffffff] text-sm font-bold">03</span>
+                </div>
             </div>
-            <img src="images/line.svg" class="w-[210px] p-0">
-            <div class="h-6 w-6 mr-0 flex-shrink-0 flex items-center justify-center bg-[#31D843] rounded-full">
-                <span class="text-[#ffffff] text-sm font-bold">03</span>
-            </div>
-            
-            
-        </div>
+        </section>
         <!-- section3 -->
-        <section class="text-[#ffffff] flex ">
-            <div class="flex  ">
-                <div class="ml-[300px] mt-[80px]">
-                    <h2 class="w-[100px] font-bold text-[40px]">Verification
-                        Complete</h2>
-                        <p>Thank you for your patience</p>
-                        <p>You  can now cast your Votes</p>
+        <section class="text-[#ffffff] flex justify-between w-[85%] mx-auto">
+            <div class="mt-[9.69rem] max-md:mt-[7rem]">
+                <h2 class="w-[100px] max-md:w-[10rem] font-bold max-md:text-3xl max-lg:text-5xl text-7xl">Verification Complete</h2>
+                <div class="mt-[1.5rem] max-md:mt-[0.3rem] ml-[1rem] max-md:leading-[1rem] max-md:ml-[0.5rem] max-md:text-[0.7rem] text-xl max-lg:text-sm max-lg:ml-[0.5rem] max-lg:mt-[1rem] font-medium">
+                    <p>Thank you for your patience</p>
+                    <p>You  can now cast your Votes</p>
                 </div>
-                <div>
-                    <img src="images/logo2.svg" class="h-[220px] w-[220px] ml-[250px] mt-[80px]">
-                </div>
+            </div>
+            <div>
+                <img src="src/images/logo2.svg" class="h-[31.25rem] max-md:h-[11rem] max-lg:h-[25rem] w-[31.25rem] max-md:w-[11rem] max-lg:w-[25rem] mt-[80px] max-md:mt-[90px]">
             </div>
         </section>
         <!-- section4 -->
-        <section>
-            <a href="cast.html"><button class="bg-[#3EFF8B] ml-[300px] w-[150px] rounded-[10px] pt-[8px] pb-[8px] mt-[77px] text-[#293F14] font-bold ">Cast Your Vote</button></a>
+        <section class="w-[75%] max-md:w-[80%] max-lg:w-[80%] mx-auto">
+            <a href="cast.html">
+                <button class="bg-[#31D843] w-[14.75rem] max-md:w-[7rem] h-[3.5rem] max-md:h-[3rem] max-md:rounded-[0.5rem] rounded-[12px] pt-[8px] pb-[8px] mt-[77px] max-md:mt-[3rem] text-[#293F14] max-md:text-sm text-xl font-bold">Cast Your Vote</button>
+            </a>
         </section>
-        <img src="images/arrow.svg" class="ml-[146px] mt-[200px]">
 
-        <!-- section 5 -->
-        <div class="flex justify-center">
-            <img src="images/long.svg" alt="" class="mx-auto mt-[85px]">
-        </div
-
-
-
-
-
-
-
-
-
-
-
+        <div class="w-[88%] mx-auto mt-[7rem] mb-[2rem]">
+            <img src="src/images/arrow.svg" class="w-[8rem] max-md:w-[5rem]">
+        </div>
 
     </section>
+</body>
+</html>
