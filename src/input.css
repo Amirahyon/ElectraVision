@@ -66,4 +66,10 @@ html, body{
         width: 60%;
     }
 }
+
+@media screen and (max-width: 334px) {
+    .green{
+        height: 0.8rem;
+    }
+}
 @tailwind utilities;
