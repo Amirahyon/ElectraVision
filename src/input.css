@@ -21,12 +21,9 @@ html, body{
 
 .voting{
     background-image: url(images/vote.jpeg);
-    /* opacity: 0.5; */
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: screen;
-    /* width: 100%;
-    height: 100%; */
 }
 
 .menu{
