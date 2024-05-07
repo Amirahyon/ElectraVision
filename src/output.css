@@ -558,8 +558,6 @@ html, body{
   padding:0;
   margin:0;
   background-color: #386C0B;
-  width: 100vw;
-  height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -574,12 +572,21 @@ html, body{
 
 .voting{
   background-image: url(images/vote.jpeg);
-  /* opacity: 0.5; */
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: screen;
-  /* width: 100%;
-    height: 100%; */
+}
+
+.box{
+  background-image: url(images/ballot-box.jpeg);
+  background-size: cover;
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  /* opacity: 0.5; */
+  /* op */
+  width: 90%;
+  margin: auto;
+  color: white;
 }
 
 .menu{
@@ -622,5 +629,11 @@ html, body{
 
   .large{
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .green{
+    height: 0.8rem;
   }
 }

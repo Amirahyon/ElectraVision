@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link href="src/output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -11,7 +11,7 @@
     <main class="">
        
         <section>
-            <section class="flex justify-between items-center w-[90%] mx-auto mt-[50px] max-md:mt-[20px]">
+            <section class="flex justify-between items-center w-[90%] mx-auto mt-[50px] max-md:mt-[20px] lg:hidden">
               
                 <div class="lg:hidden flex justify-between w-[94%] mx-auto items-center pt-[1rem]">
                     <div class="flex items-center">
@@ -47,26 +47,44 @@
                     </div>
                 </div>
             </section>
-            <div class="w-[90%] h-[55rem] max-md:h-[35rem] text-3xl max-md:text-xl mt-[75px] max-md:my-[3rem] pt-[3rem] max-md:pt-[2rem] pl-[4rem] max-md:pl-[1rem] mx-auto" id="box">
-                
-                <h1 class="max-md:font-medium">WELCOME IBRAHIM ADAMS</h1>
 
-                <h3 class="w-[21rem] justify-center mt-[7rem] max-md:mt-[4rem]">Its another election<br>And it is time to VOTE<br> <br>Lets verify your identity</h3>
+            <section class="flex justify-between items-center w-[90%] mx-auto mt-[50px] max-md:mt-[20px] max-lg:hidden">
 
-                <div class="bg-[#31D843] h-[19.13rem] max-md:h-[12rem] w-[60%] max-md:w-[80%] mx-auto mt-[9rem] max-md:mt-[4rem] pt-[5.19rem] max-md:pt-[2rem] rounded-[12px] ">
-
-                    <p class="text-[#FFFFFF] text-[18px] max-md:text-base font-bold text-center">Verify your identity and registation status</p>
-                    <div class="w-[50%] max-md:w-[75%] mx-auto mt-[3.5rem] max-md:mt-[1.5rem]">
-                        <a href="desktop2.html">
-                            <button class="bg-green-500 w-[100%] h-[3.5rem] rounded-[10px] text-xl max-md:text-sm font-semibold text-[#FFFFFF]">Start your two step verification</button>
-                        </a>
-                    </div>
-    
+                <div class="flex items-center">
+                    <img src="src/images/image.svg" class="w-[4rem] h-[4rem] max-md:w-[2.5rem] max-md:h-[2.5rem]">
+                    <p class="text-[#ffffff] p-[11px] max-md:p-[7px] font-semibold max-md:text-xl text-3xl">ELECTRAVISION</p>
                 </div>
-                
 
-            </div>
-            
+                <select id="entry-dropdown" name="options" class="text-white bg-green-500 w-[40%] h-[2rem] pl-[0.5rem]">
+                    <option value="Parties" selected>Search Political Parties</option>
+                    <option value="party A">PARTY A</option>
+                    <option value="party B">PARTY B</option>
+                    <option value="party C">PARTY C</option>
+                    <option value="party D">PARTY D</option>
+                </select>
+            </section>
+
+            <section class="box bg-opacity-100">
+                <div class="w-[100%] h-[55rem] max-md:h-[35rem] text-3xl max-md:text-xl mt-[75px] max-md:my-[3rem] pt-[3rem] max-md:pt-[2rem] pl-[4rem] max-md:pl-[1rem]">
+                    
+                    <h1 class="max-md:font-medium">WELCOME IBRAHIM ADAMS</h1>
+
+                    <h3 class="w-[21rem] justify-center mt-[7rem] max-md:mt-[4rem]">Its another election<br>And it is time to VOTE<br> <br>Lets verify your identity</h3>
+
+                    <div class="bg-[#31D843] h-[19.13rem] max-md:h-[12rem] w-[60%] max-md:w-[80%] mx-auto mt-[9rem] max-md:mt-[4rem] pt-[5.19rem] max-md:pt-[2rem] rounded-[12px] ">
+
+                        <p class="text-[#FFFFFF] text-[18px] max-md:text-base font-bold text-center">Verify your identity and registation status</p>
+                        <div class="w-[50%] max-md:w-[75%] mx-auto mt-[3.5rem] max-md:mt-[1.5rem]">
+                            <a href="desktop2.html">
+                                <button class="bg-green-500 w-[100%] h-[3.5rem] rounded-[10px] text-xl max-md:text-sm font-semibold text-[#FFFFFF]">Start your two step verification</button>
+                            </a>
+                        </div>
+        
+                    </div>
+                    
+                </div>
+            </section>
+                
             <hr class="mt-[1.5rem] border-[#3EFF8B] w-[91%] mx-auto h-[0.5rem] border-2 bg-[#3EFF8B] max-lg:hidden">
 
             <!-- footer -->
@@ -135,9 +153,6 @@
                 </div>
 
             </section>
-
-        
-
 
         </section>
         

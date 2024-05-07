@@ -24,11 +24,16 @@ html, body{
     background-blend-mode: screen;
 }
 
-#box{
+.box{
     background-image: url(images/ballot-box.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-blend-mode: screen;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+    /* op */
+    width: 90%;
+    margin: auto;
+    color: white;
 }
 
 .menu{
