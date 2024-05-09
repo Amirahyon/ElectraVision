@@ -558,8 +558,6 @@ html, body{
   padding:0;
   margin:0;
   background-color: #386C0B;
-  overflow-x: hidden;
-  overflow-y: auto;
 }
 
 *{
@@ -575,6 +573,7 @@ html, body{
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: screen;
+  height: 100%;
 }
 
 .box{
@@ -582,8 +581,6 @@ html, body{
   background-size: cover;
   background-blend-mode: screen;
   background-repeat: no-repeat;
-  /* opacity: 0.5; */
-  /* op */
   width: 90%;
   margin: auto;
   color: white;
